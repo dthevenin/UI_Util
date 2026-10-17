@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "strict": false,
+    "noImplicitAny": true,
+    "moduleResolution": "bundler",
+    "allowJs": false,
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+  },
+  "include": ["./ui_utils"],
+  "exclude": ["node_modules"]
+}
